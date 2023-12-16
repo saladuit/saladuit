@@ -40,8 +40,8 @@
                                     <rect class="day" x="105" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="120" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="135" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="165" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="150" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="165" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="180" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                 </g>
@@ -1066,6 +1066,11 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
+                            <g transform="translate(-8.5, 11)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
                         </g>
                     </g>
                 </svg>
@@ -1085,14 +1090,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="269.127858124496" height="8" fill="#555555"/>
-                    <rect mask="url(#languages-bar)" x="269.127858124496" y="0" width="107.67916953198757" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="376.8070276564836" y="0" width="51.51011330247087" height="8" fill="#427819"/>
-                    <rect mask="url(#languages-bar)" x="428.3171409589545" y="0" width="20.066574340640653" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="448.3837152995951" y="0" width="6.428498013789566" height="8" fill="#000080"/>
-                    <rect mask="url(#languages-bar)" x="454.8122133133847" y="0" width="3.6831408932596" height="8" fill="#199f4b"/>
-                    <rect mask="url(#languages-bar)" x="458.49535420664427" y="0" width="0.9348592911098937" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="459.43021349775415" y="0" width="0.5697865022458112" height="8" fill="#dea584"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="268.2732276856892" height="8" fill="#555555"/>
+                    <rect mask="url(#languages-bar)" x="268.2732276856892" y="0" width="108.7979838681994" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="377.0712115538886" y="0" width="51.346540081023406" height="8" fill="#427819"/>
+                    <rect mask="url(#languages-bar)" x="428.417751634912" y="0" width="20.002851820966903" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="448.4206034558789" y="0" width="6.408083961834186" height="8" fill="#000080"/>
+                    <rect mask="url(#languages-bar)" x="454.8286874177131" y="0" width="3.6714448750928823" height="8" fill="#199f4b"/>
+                    <rect mask="url(#languages-bar)" x="458.50013229280603" y="0" width="0.9318905935854096" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="459.43202288639145" y="0" width="0.5679771136086256" height="8" fill="#dea584"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -1162,7 +1167,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>0ur4n05/header42.nvim</span>
-                                        <span>starred 1 day ago</span>
+                                        <span>starred 2 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">42 header for neovim made with lua</div>
